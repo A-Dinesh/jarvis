@@ -1,0 +1,164 @@
+.frame-1-outer
+{
+    border: 5px solid #0000;
+    padding: 2px;
+    position: relative;
+width: 100%;
+
+        
+        
+
+}
+
+.f1_inner1_outer1
+{
+    position: relative;
+    
+    display:flex;
+    flex-direction: column;
+    flex: 2;
+}
+.f1_inner1_outer1 .inner1
+{
+    align-items: right;
+    width: 1024;
+    
+   height: 250px;
+   background: white;
+   
+   
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("E:/html/Projects/images/RHA-Logo.png");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+.f1_inner1_outer1 .inner1 ul {
+
+    text-transform:uppercase;
+    text-align: bottom;
+    align-items: bottom;
+    display: bottom;
+    
+    margin: 200px;
+    padding: 15px 4px 17px 0px;
+    list-style: none;
+    
+  }
+  .f1_inner1_outer1 .inner1 ul li {
+    font: bold 14px/19px sans-serif;
+    display: inline-block;
+    margin-right: -5px;
+    position: relative;
+    padding: 15px 20px;
+    
+    color:white;
+    cursor: pointer;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+  .f1_inner1_outer1 .inner1 ul li:hover {
+    background: #6aa25d;
+    color: #f7f7f7;
+    }
+    .f1_inner1_outer1.inner1 ul li:hover {
+        background: #6aa25d;
+        color: #f7f7f7;
+        }
+    .f1_inner1_outer1 .inner1 ul li a
+    {
+      font: bold 14px/19px sans-serif;
+    color:white;
+    }
+    .f1_inner1_outer1 .inner1 ul li a:hover
+    {
+        background: #6aa25d;
+    color:white;
+    }
+    
+      
+      .about .aboutbtn {
+         
+        border: none;
+        outline: none;
+        color: white;
+        
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+      }
+      
+      .f1_inner1_outer1 .inner1 ul li a:hover, .about:hover .aboutbtn {
+        background-color: rgb(8, 83, 8);
+      }
+
+      .aboutus-content {
+        display: none;
+        position: absolute;
+        background-color: #6aa25d;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+       
+      }
+      
+      .aboutus-content  a {
+        float: none;
+        color: black;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+      
+      .aboutus-content  a:hover {
+        background-color: #ddd;
+      }
+      
+      .about:hover .aboutus-content  {
+        display: block;
+      }
+
+
+
+.f1_inner1_outer1 .inner2
+{
+    border: 1px solid rgba(2, 2, 2, 0.698);
+   
+    margin: 2px;
+    padding: 5px;
+    flex: 1;
+}
+.f1_inner1_outer2
+{
+    
+    height: 500px;
+    
+    margin: 5px;
+    display:flex;
+    flex-direction: row;
+    flex: 2;
+}
+.f1_inner1_outer2 .inner1
+{
+    background: rgb(1, 53, 1);
+    
+    margin: 0PX;
+    padding: 5px;
+    flex: 1;
+}
+.f1_inner1_outer2 .inner2
+{
+    text-transform:uppercase;
+    font: white;
+    background: rgb(1, 53, 1);
+    margin: 0px;
+    padding: 5px;
+    flex: 1;
+}
+
